@@ -8,5 +8,15 @@ this.canRage = canRage;
 this.weapon = weapon;
 this.armor = armor;
 this.availableSpells = availableSpells;
+this.availableArmor = availableArmor;
 }
+
+public enum WSpells{
+    FIREBALL(-1), LIGHTNING(-1), ACIDSPRAY(-1);
+
+    int damage;
+    spells(int damage){
+        this.damage = damage;
+    }
+  }
 }

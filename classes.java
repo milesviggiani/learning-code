@@ -6,4 +6,5 @@ String weapon;
 String armor;
 boolean canRage;
 String availableSpells;
+String availableArmor;
 }
