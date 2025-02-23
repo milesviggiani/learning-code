@@ -1,12 +1,12 @@
 public class barbarian extends classes{
 AvaliableArmour armourName;
-public barbarian(int strength, int intelligence, int charisma, boolean canRage, String weapon, AvaliableArmour armourName, String availableSpells) {
+BarbarianAbilities abilitiesName;
+public barbarian(int strength, int intelligence, int charisma, String weapon, AvaliableArmour armourName, BarbarianAbilities abilitiesName) {
 this.strength = strength;
 this.intelligence = intelligence;
 this.charisma = charisma;
-this.canRage = canRage;
 this.weapon = weapon;
 this.armourName = armourName;
-this.availableSpells = availableSpells;
+this.abilitiesName = abilitiesName;
 }
 }
