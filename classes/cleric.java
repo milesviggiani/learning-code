@@ -10,6 +10,7 @@ this.armor = armor;
 this.availableSpells = availableSpells;
 this.availableArmor = availableArmor;
 }
+  
 public enum CSpells{
     LAYONHANDS(), TURNUNDEAD(-1), CHANNEL DIVINITY(-1);
 
