@@ -1,5 +1,5 @@
 public enum AvaliableArmour{
-    LIGHTARMOUR(1, "LightArmour"), MEDIUMARMOUR(2, "MediumArmour"), HEAVYAMROUR(3, "HeavyArmour");
+    PADDED(1, "Padded"), STUDDEDLEATHER(1, "StuddedLeather"), CHAINSHIRT(2, "ChainShirt"), PLATE(3, "Plate");
     int armourLevel;
     String armourName;
 AvaliableArmour(int armourLevel, String armourName) {
