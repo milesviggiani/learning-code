@@ -8,6 +8,7 @@ this.canRage = canRage;
 this.weapon = weapon;
 this.armor = armor;
 this.availableSpells = availableSpells;
+this.availableArmor = availableArmor;
 }
 
 public enum WSpells{
