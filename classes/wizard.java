@@ -5,7 +5,6 @@ public wizard(int strength, int intelligence, int charisma, String weapon, Avali
 this.strength = strength;
 this.intelligence = intelligence;
 this.charisma = charisma;
-this.canRage = canRage;
 this.weapon = weapon;
 this.armourName = armourName;
 this.availableSpells = availableSpells;
