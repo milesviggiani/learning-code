@@ -4,6 +4,6 @@ public enum BarbarianAbilities{
     double damage;
     BarbarianAbilities(double damage, String abilitiesName){
         this.damage = damage;
-        this.abilitiesName abilitiesName;
+        this.abilitiesName = abilitiesName;
     }
 }
