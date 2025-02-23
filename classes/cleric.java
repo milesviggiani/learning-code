@@ -9,4 +9,5 @@ this.weapon = weapon;
 this.armor = armor;
 this.availableSpells = availableSpells;
 }
+
 }
