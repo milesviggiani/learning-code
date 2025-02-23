@@ -9,4 +9,12 @@ this.weapon = weapon;
 this.armor = armor;
 this.availableSpells = availableSpells;
 }
+public enum CSpells{
+    LAYONHANDS(), TURNUNDEAD(-1), CHANNEL DIVINITY(-1);
+
+    int damage;
+    CSpells(int damage){
+        this.damage = damage;
+    }
+  }
 }

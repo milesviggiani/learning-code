@@ -9,4 +9,13 @@ this.weapon = weapon;
 this.armor = armor;
 this.availableSpells = availableSpells;
 }
+
+public enum WSpells{
+    FIREBALL(-1), LIGHTNING(-1), ACIDSPRAY(-1);
+
+    int damage;
+    spells(int damage){
+        this.damage = damage;
+    }
+  }
 }
