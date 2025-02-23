@@ -1,14 +1,13 @@
 public class cleric extends classes{
-
-public cleric(int strength, int intelligence, int charisma, boolean canRage, String weapon, String armor, String availableSpells, String availableArmor) {
+AvaliableArmour armourName;
+public cleric(int strength, int intelligence, int charisma, boolean canRage, String weapon, AvaliableArmour armourName, String availableSpells) {
 this.strength = strength;
 this.intelligence = intelligence;
 this.charisma = charisma;
 this.canRage = canRage;
 this.weapon = weapon;
-this.armor = armor;
+this.armourName =  armourName;
 this.availableSpells = availableSpells;
-this.availableArmor = availableArmor;
 }
   
 public enum CSpells{
