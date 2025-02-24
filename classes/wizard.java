@@ -1,11 +1,12 @@
 public class wizard extends classes{
 AvaliableArmour armourName;
 WSpells availableSpells;
-public wizard(int strength, int intelligence, int charisma, String weapon, AvaliableArmour armourName, WSpells availableSpells) {
+Items itemName;
+public wizard(int strength, int intelligence, int charisma, Items itemName, AvaliableArmour armourName, WSpells availableSpells) {
 this.strength = strength;
 this.intelligence = intelligence;
 this.charisma = charisma;
-this.weapon = weapon;
+this.itemName = itemName;
 this.armourName = armourName;
 this.availableSpells = availableSpells;
 }
