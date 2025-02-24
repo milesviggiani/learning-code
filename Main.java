@@ -1,8 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        barbarian idiot = new barbarian(20, 1, 5, Items.WARAXE, AvaliableArmour.PLATE, BarbarianAbilities.RAGE);
-        cleric gaylord = new cleric(16, 18, 19, Items.EXCALIBUR, AvaliableArmour.CHAINSHIRT, CSpells.BLESSING);
-        wizard merlin = new wizard(11, 20, 15, Items.NONE, AvaliableArmour.PADDED, WSpells.SUMMON);
+        barbarian idiot = new barbarian(20, 13, 15, Items.WARAXE, AvaliableArmour.PLATE, BarbarianAbilities.CLEAVE);
+        cleric gaylord = new cleric(16, 18, 19, Items.FLAMESWORD, AvaliableArmour.CHAINSHIRT, CSpells.LAYONHANDS);
+        wizard merlin = new wizard(11, 20, 15, Items.NONE, AvaliableArmour.PADDED, WSpells.FIREBALL);
 
         int barbarianPoints = idiot.calculateTotalPoints();
         int clericPoints = gaylord.calculateTotalPoints();
