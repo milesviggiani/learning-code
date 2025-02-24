@@ -1,5 +1,5 @@
 public enum AvaliableEnchantment{
-    CERTAINDEATH(10,"CertainDeath"), DRAGONSLAYER(8, "DragonSlayer"), FLAMESWORD(3, "FlameSword");
+    CERTAINDEATH(10,"CertainDeath"), DRAGONSLAYER(8, "DragonSlayer"), FLAMESWORD(3, "FlameSword"), NONE(0, "None"), SHARPNESS(5, "Sharpness"), VAMPIRIC(7, "Vampiric"), WITHER(6, "Wither"), POISON(4, "Poison");
     int enchantmentLevel;
     String enchantmentName;
 AvaliableEnchantment(int enchantmentLevel, String enchantmentName) {
