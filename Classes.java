@@ -1,4 +1,4 @@
-class classes {
+class Classes {
     int strength;
     int intelligence;
     int charisma;

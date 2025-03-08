@@ -1,9 +1,9 @@
-public class barbarian extends classes {
+public class Barbarian extends Classes {
     AvaliableArmour armourName;
     BarbarianAbilities abilitiesName;
     Items itemName;
 
-    public barbarian(int strength, int intelligence, int charisma, Items itemName, AvaliableArmour armourName, BarbarianAbilities abilitiesName) {
+    public Barbarian(int strength, int intelligence, int charisma, Items itemName, AvaliableArmour armourName, BarbarianAbilities abilitiesName) {
         this.strength = strength;
         this.intelligence = intelligence;
         this.charisma = charisma;

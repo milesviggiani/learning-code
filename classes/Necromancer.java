@@ -1,9 +1,9 @@
-public class wizard extends classes {
+public class Necromancer extends Classes {
     AvaliableArmour armourName;
-    WSpells availableSpells;
+    NSpells availableSpells;
     Items itemName;
 
-    public wizard(int strength, int intelligence, int charisma, Items itemName, AvaliableArmour armourName, WSpells availableSpells) {
+    public Necromancer(int strength, int intelligence, int charisma, Items itemName, AvaliableArmour armourName, NSpells availableSpells) {
         this.strength = strength;
         this.intelligence = intelligence;
         this.charisma = charisma;
