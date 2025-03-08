@@ -1,9 +1,9 @@
-public class cleric extends classes {
+public class Cleric extends Classes {
     AvaliableArmour armourName;
     CSpells spellName;
     Items itemName;
 
-    public cleric(int strength, int intelligence, int charisma, Items itemName, AvaliableArmour armourName, CSpells spellName) {
+    public Cleric(int strength, int intelligence, int charisma, Items itemName, AvaliableArmour armourName, CSpells spellName) {
         this.strength = strength;
         this.intelligence = intelligence;
         this.charisma = charisma;
